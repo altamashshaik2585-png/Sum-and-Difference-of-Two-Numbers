@@ -1,0 +1,16 @@
+# Sum-and-Difference-of-Two-Numbers
+#include <stdio.h> 
+
+int main()
+{   
+ int a, b;   
+ float x, y;     
+
+ scanf("%d %d", &amp;a, &amp;b);  
+ scanf("%f %f", &amp;x, &amp;y);   
+
+ printf("%d %d\n", a + b, a - b);   
+ printf("%.1f %.1f\n", x + y, x - y); 
+
+ return 0; 
+}
